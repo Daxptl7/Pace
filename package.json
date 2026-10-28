@@ -1,0 +1,27 @@
+{
+  "name": "pace-storefront",
+  "version": "0.1.0",
+  "private": true,
+  "workspaces": [
+    "frontend"
+  ],
+  "scripts": {
+    "dev": "npm --workspace frontend exec -- vite --host 127.0.0.1",
+    "build": "npm run build --workspace frontend",
+    "preview": "npm --workspace frontend exec -- vite preview --host 127.0.0.1",
+    "typecheck": "npm run typecheck --workspace frontend",
+    "lint": "npm run lint --workspace frontend",
+    "test": "npm run test --workspace frontend",
+    "format": "prettier --write .",
+    "format:check": "prettier --check ."
+  },
+  "engines": {
+    "node": ">=22.13.0"
+  },
+  "devDependencies": {
+    "prettier": "^3.9.10"
+  },
+  "overrides": {
+    "vite": "^8.3.5"
+  }
+}

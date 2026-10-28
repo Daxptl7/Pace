@@ -1,0 +1,12 @@
+{
+  "viewports": [],
+  "routes": ["/", "/shoes", "/sports/running", "/not-a-real-route"],
+  "accessibility": [
+    {
+      "label": "production desktop",
+      "violations": []
+    }
+  ],
+  "interactions": [],
+  "consoleErrors": []
+}

@@ -1,0 +1,135 @@
+{
+  "viewports": [
+    {
+      "width": 320,
+      "client": 320,
+      "scroll": 320
+    },
+    {
+      "width": 375,
+      "client": 375,
+      "scroll": 375
+    },
+    {
+      "width": 767,
+      "client": 767,
+      "scroll": 767
+    },
+    {
+      "width": 768,
+      "client": 768,
+      "scroll": 768
+    },
+    {
+      "width": 1023,
+      "client": 1023,
+      "scroll": 1023
+    },
+    {
+      "width": 1024,
+      "client": 1024,
+      "scroll": 1024
+    },
+    {
+      "width": 1440,
+      "client": 1440,
+      "scroll": 1440
+    },
+    {
+      "width": 1920,
+      "client": 1920,
+      "scroll": 1920
+    }
+  ],
+  "routes": [
+    "/",
+    "/accessories",
+    "/account",
+    "/auth",
+    "/auth?mode=signin",
+    "/cart",
+    "/category/bestsellers",
+    "/category/boys",
+    "/category/collections",
+    "/category/example",
+    "/category/girls",
+    "/category/jordan-clothing",
+    "/category/jordan-shoes",
+    "/category/lifestyle",
+    "/category/mens-essentials",
+    "/category/mens-lifestyle",
+    "/category/sport",
+    "/category/trending",
+    "/category/womens-lifestyle",
+    "/category/womens-sets",
+    "/checkout",
+    "/clothing",
+    "/help",
+    "/help/contact",
+    "/help/delivery",
+    "/help/gift-cards",
+    "/help/order-status",
+    "/help/region",
+    "/help/returns",
+    "/help/stores",
+    "/info/about",
+    "/info/accessibility",
+    "/info/careers",
+    "/info/instagram",
+    "/info/privacy",
+    "/info/sustainability",
+    "/info/terms",
+    "/info/youtube",
+    "/jordan",
+    "/kids",
+    "/men",
+    "/new-arrivals",
+    "/product/example",
+    "/search",
+    "/shoes",
+    "/sports/basketball",
+    "/sports/football",
+    "/sports/running",
+    "/sports/training",
+    "/wishlist",
+    "/women"
+  ],
+  "accessibility": [
+    {
+      "label": "desktop mega menu",
+      "violations": []
+    },
+    {
+      "label": "root 375px",
+      "violations": []
+    },
+    {
+      "label": "root 1440px",
+      "violations": []
+    },
+    {
+      "label": "mobile drawer with expanded category",
+      "violations": []
+    },
+    {
+      "label": "mobile search modal",
+      "violations": []
+    },
+    {
+      "label": "404 page",
+      "violations": []
+    }
+  ],
+  "interactions": [
+    "All five desktop menus open on hover and close on leave",
+    "Keyboard opens menu, focuses first link, Escape restores trigger",
+    "Mega menu link navigates and closes menu",
+    "Search submits a URL-encoded query and displays it",
+    "Mobile drawer expands categories, traps focus, locks scroll, restores focus on Escape",
+    "Mobile nested route navigates, closes drawer, and unlocks scroll",
+    "Mobile search dialog submits and closes",
+    "Unknown route displays intentional 404",
+    "Reduced motion preference honored"
+  ],
+  "consoleErrors": []
+}
